@@ -2,10 +2,12 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import image from './image.png';
+
 
 export default function About() {
   return (
-    <div className='container mt-5 mb-5'>
+    <div className='container mt-5 '>
     <Box sx={{ width: '100%' }}>
     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
       
@@ -22,7 +24,7 @@ All necessary reference files and documents are available for download
 </Typography>
       </Grid>
       <Grid item xs={6}>
-        4
+      <img src={image} alt="Logo" className='h-50'/>
       </Grid>
     </Grid>
   </Box>
