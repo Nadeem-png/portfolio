@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 
 export default function About() {
   return (
+    <div className='container mt-5 mb-5'>
     <Box sx={{ width: '100%' }}>
     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
       
@@ -25,5 +26,6 @@ All necessary reference files and documents are available for download
       </Grid>
     </Grid>
   </Box>
+  </div>
   );
 }
