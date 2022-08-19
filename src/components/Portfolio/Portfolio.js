@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+
 import MusicApp from "../../img/musicapp.png";
 
 
@@ -32,9 +32,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
-        </SwiperSlide>
+        
       </Swiper>
     </div>
   );
